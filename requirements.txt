@@ -135,8 +135,6 @@ pytweening==1.0.4
 pytz==2023.3
 pywhatkit==5.4
 pywifi==1.1.12
-pywin32==305
-pywin32-ctypes==0.2.0
 PyYAML==6.0
 ratelim==0.1.6
 regex==2022.10.31
