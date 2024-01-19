@@ -10,7 +10,6 @@ from buttons import *
 from config import *
 from asyncio import sleep
 import emoji
-from background import keep_alive
 from aiogram.utils.exceptions import Throttled
 from datetime import datetime
 from decimal import Decimal
@@ -621,7 +620,5 @@ async def karta(message: types.Message, state: FSMContext):
 
 
 
-
-keep_alive()
 if __name__ == '__main__':
   executor.start_polling(dp, on_startup=on_startup, skip_updates=False)
