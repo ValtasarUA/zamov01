@@ -8,7 +8,6 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from random import choice
 from buttons import *
 from config import *
-import pyttsx3
 from asyncio import sleep
 import emoji
 from background import keep_alive
@@ -18,11 +17,6 @@ from decimal import Decimal
 import os.path
 import os
 import base64
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
 import re
 # If modifying these scopes, delete the file token.json.
 #blocki = [6124970105]
